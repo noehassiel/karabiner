@@ -73,7 +73,7 @@ const rules: KarabinerRules[] = [
       a: app("Arc"),
       g: app("Google Chrome"),
       c: app("Calendar"),
-      n: app("Notion"),
+      l: app("Linear"),
       e: app("Mail"),
       m: app("Music"),
       h: app("Microsoft Teams"),
@@ -227,6 +227,7 @@ const rules: KarabinerRules[] = [
       d: open(
         `raycast://extensions/yakitrak/do-not-disturb/toggle?launchType=background`
       ),
+      c: open('raycast://script-commands/work-time'),
       // "T"heme
       t: open(`raycast://extensions/raycast/system/toggle-system-appearance`),
     },
